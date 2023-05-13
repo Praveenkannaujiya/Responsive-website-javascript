@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media self practice</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+.box{
+    background-color: yellow;
+    color:black;
+    font-size: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    display: none;
+
+}
+@media (max-width :400px){
+    #box1{
+        display: block;
+    }
+}
+@media (min-width :401px) and (max-width:542px){
+    #box2{
+        display: block;
+    }
+}
+@media (min-width :542px) and (max-width:768px){
+    #box3{
+        display: block;
+    }
+}
+@media (min-width :769px) and (max-width:1440px){
+    #box4{
+        display: block;
+    }
+}
+@media (min-width:1440px){
+    #box5{
+        display: block;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box1">mai iphone </div>
+    <div class="box" id="box2">mai mobile phone </div>
+    <div class="box" id="box3">mai tab</div>
+    <div class="box" id="box4"> mai laptop hu </div>
+    <div class="box" id="box5"> wide full screen display hu </div>
+</body>
+
+</html>

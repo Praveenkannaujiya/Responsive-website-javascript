@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+    <title>responsive website design with media and bootsrap</title>
+</head>
+<style>
+    .lover {
+        width: 1170px;
+        margin: auto;
+        border: 1px solid red;
+        
+    }
+    
+    .col {
+        text-align: center;
+        width: 23%;
+        margin: 1%;
+        float: left;
+
+    }
+
+    .col img {
+        width: 100%;
+    }
+
+    .clear {
+        clear: both;
+
+    }
+    @media only screen and (min-width:568px) and (max-width:992px){
+        .lover{
+            width: 100%;
+        }
+        .col{
+            width: 48%;
+            margin: 1%;
+        }
+        
+    }
+    
+    @media only screen and (min-width:200px) and (max-width:567px){
+        .lover{
+            width: 100%;
+        }
+        .col{
+            width: 96%;
+            margin: 2%;
+        }
+    }
+ 
+</style>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MEME_ADDA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/trend">Tranding Meme</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/hollywood">Hollybood Meme</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/fun meme">fun Meme</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/deny meme"> DENY mEmE<span class="badge text-bg-danger">New</span></a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+  
+
+    <div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide carousel" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner carousel-fade">
+                    <div class="carousel-item active">
+                        <img src="ck.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>PRAVEEN DENY GANG</h5>
+                            <p>sab ek number  </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="oo.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Daku</h5>
+                            <p> VERY DANGER PERSON</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="jk.JPG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>>VOLLYBALL PLAYER GANG</h5>
+                            <p>check out now</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="lover">
+        <div class="col">
+            <img src="ck.JPG" alt="">
+            <h3>gang#0101</h3>
+        </div>
+        
+        <div class="col">
+            <img src="oo.JPG" alt="">
+            <h3>Gym boyz</h3>
+        </div>
+        <div class="col">
+            <img src="jk.JPG" alt="">
+            <h3>VOLLYBALL team</h3>
+        </div>
+        <div class="col">
+            <img src="k.jpg" alt="">
+            <h3>Daku</h3>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>
